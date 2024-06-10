@@ -1,10 +1,9 @@
-import BannerImage from "../../../public/imagens/banner.png";
-import './Banner.css';
+import "./Banner.css";
 
 function Banner() {
     return (
         <header className="banner">
-            <img src={BannerImage} alt="Banner do site" />
+            <img src="../public/imagens/banner.png" alt="Banner do site" />
         </header>
     );
 }

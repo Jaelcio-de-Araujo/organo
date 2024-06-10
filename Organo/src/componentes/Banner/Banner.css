@@ -5,13 +5,10 @@
   }
   
   .banner {
-    position: fixed; /* Fixa a posição da div banner */
     top: 0; /* Ajusta a div banner para o topo */
-    left: 0; /* Ajusta a div banner para a esquerda */
     width: 100%; /* Faz a div banner ocupar toda a largura */
     background-color: #6278f7;
     text-align: center;
-    z-index: 9999; /* Define um índice z alto para garantir que a div banner esteja acima de todo o conteúdo */
   }
   
   .banner img {
